@@ -8,6 +8,7 @@
 html,
 body {
   font-family: "Open Sans", sans-serif;
+  height: 100%;
 }
 
 h1,
@@ -113,4 +114,32 @@ p {
 .my-10 {
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.features {
+  overflow: auto;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.feature {
+  float: left;
+  width: 50%;
+}
+
+.container {
+  max-width: 1000px;
+  display: block;
+  margin: auto;
+}
+
+.feature i,
+.feature h2 {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 5px;
+}
+
+.feature p {
+  margin: 5px;
 }
