@@ -21,6 +21,10 @@ a {
   text-decoration: none;
 }
 
+p {
+  margin-bottom: 10px;
+}
+
 .header {
   background: black;
   overflow: auto;
@@ -55,4 +59,58 @@ a {
 .header nav ul li a:hover,
 .active {
   background: #444;
+}
+
+.vp {
+  background: url("../images/cafe-interior.jpg") center center;
+  background-size: cover;
+  text-align: center;
+  height: 700px;
+}
+
+.vp-content {
+  margin: auto;
+  color: white;
+  padding-top: 150px;
+  max-width: 600px;
+}
+
+.vp-content h1 {
+  font-size: 50px;
+}
+
+.vp-content p {
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  line-height: 1.9em;
+}
+
+.separator {
+  margin: 20px auto;
+  height: 10px;
+  width: 100px;
+  background: #111;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 14px;
+  padding: 15px 25px;
+  border-radius: 30px;
+  font-weight: 700;
+}
+
+.btn-primary {
+  background: white;
+  color: #222;
+}
+
+.btn-primary:hover {
+  background: #222;
+  color: white;
+}
+
+.my-10 {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
