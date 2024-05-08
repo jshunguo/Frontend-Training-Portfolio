@@ -111,9 +111,25 @@ p {
   color: white;
 }
 
+.btn-dark {
+  background: #222;
+  color: white;
+}
+
+.btn-dark:hover {
+  background: white;
+  color: #222;
+  border: 1px solid #222;
+}
+
 .my-10 {
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.my20 {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .features {
@@ -142,4 +158,20 @@ p {
 
 .feature p {
   margin: 5px;
+}
+
+.reservation {
+  padding: 100px 0px;
+  text-align: center;
+}
+
+footer {
+  background: #222;
+  color: white;
+  padding: 30px 0;
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: 0px;
 }
